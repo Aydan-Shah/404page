@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+h1, h3 {
+  font-family: cursive;
+  font-weight: bolder; }
+
+h3 {
+  padding: 50px 0 0 50px; }
+
+.mainContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .mainContent img {
+    max-width: 100%; }
+  .mainContent h1 {
+    font-size: 60px;
+    text-transform: uppercase; }
+  .mainContent p {
+    color: #4F4F4F;
+    font-size: 25px;
+    line-height: 44px;
+    width: 49%; }
+  .mainContent button {
+    border: none;
+    outline: none;
+    padding: 20px 50px;
+    background-color: #000000de; }
+    .mainContent button a {
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-family: cursive; }
+
+@media screen and (max-width: 992px) {
+  .mainContent {
+    display: block; }
+    .mainContent p {
+      width: 100%; } }
+
+/*# sourceMappingURL=index.css.map */
